@@ -41,3 +41,46 @@ section{
     background-position: right top;
 
 }
+
+.experience-section{
+    display: flex;
+    flex-direction: column;
+    
+}
+.last-page{
+    display: flex;
+    padding-left: 2%;
+    
+}
+.orange-color{
+    color: orange;
+}
+.developer-info{
+    box-shadow: 30px 10px 40px gray;
+    
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2%;
+    border-radius: 15px;
+}
+.experiance-area{
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+#noton-developer{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#pro-developer{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    
+}
+.two{
+    text-align: center;
+}
